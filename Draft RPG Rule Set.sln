@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DraftRpgRuleSet", "DraftRpgRuleSet\DraftRpgRuleSet.csproj", "{FD32993E-EFFA-4DEB-968A-AF4AF2BA787F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD32993E-EFFA-4DEB-968A-AF4AF2BA787F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD32993E-EFFA-4DEB-968A-AF4AF2BA787F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD32993E-EFFA-4DEB-968A-AF4AF2BA787F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD32993E-EFFA-4DEB-968A-AF4AF2BA787F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {597860A3-19EF-40C7-9E5B-6A1A4D0302C8}
+	EndGlobalSection
+EndGlobal
