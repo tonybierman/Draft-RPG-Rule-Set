@@ -9,6 +9,67 @@ namespace DraftRpgRuleSet.Combat
 {
     public static class CombatHelper
     {
+        /// <summary>
+        /// See Draft 0.4 RPG Rule Set 4.17.5
+        /// </summary>
+        /// <param name="armor"></param>
+        /// <returns></returns>
+        public static int ArmorMovementPenalty(ArmorType armor)
+        {
+            int retval = 0;
+
+            switch (armor)
+            {
+                case ArmorType.Chain:
+                    retval = -1;
+                    break;
+                case ArmorType.Plate:
+                    retval = -1;
+                    break;
+                case ArmorType.FullPlate:
+                    retval = -2;
+                    break;
+                case ArmorType.CombatSuit:
+                    retval = -2;
+                    break;
+            }
+
+            return retval;
+        }
+
+        /// <summary>
+        /// See Draft 0.4 RPG Rule Set 4.17.5
+        /// </summary>
+        /// <param name="armor"></param>
+        /// <returns></returns>
+        public static int ArmorProtection(ArmorType armor)
+        {
+            int retval = 0;
+
+            switch (armor)
+            {
+                case ArmorType.HeavyCloth:
+                    retval = 1;
+                    break;
+                case ArmorType.Leather:
+                    retval = 2;
+                    break;
+                case ArmorType.Chain:
+                    retval = 3;
+                    break;
+                case ArmorType.Plate:
+                    retval = 4;
+                    break;
+                case ArmorType.FullPlate:
+                    retval = 5;
+                    break;
+                case ArmorType.CombatSuit:
+                    retval = 7;
+                    break;
+            }
+
+            return retval;
+        }
 
         /// <summary>
         /// See Draft 0.4 RPG Rule Set 4.19
