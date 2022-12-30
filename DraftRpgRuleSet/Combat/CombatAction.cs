@@ -9,9 +9,9 @@ namespace DraftRpgRuleSet.Combat
     public enum CombatAction
     {
         None,
-        Attack,
-        Defend,
+        Hit,
         Parry,
-        Dodge
+        Dodge,
+        Flee
     }
 }
