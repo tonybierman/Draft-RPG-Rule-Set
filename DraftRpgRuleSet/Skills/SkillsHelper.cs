@@ -8,13 +8,13 @@ namespace DraftRpg.Skills
 {
     public static class SkillsHelper
     {
-        public static int SkillCheck()
+        public static bool SkillCheck(int skill, int bonus, int penalty, int dieRoll, int difficulty)
         {
             /*
              * Skill + Bonuses - Penalties + d10 > Difficulty
              */
 
-            return 0;
+            return skill + bonus - penalty + dieRoll > difficulty;
         }
     }
 }

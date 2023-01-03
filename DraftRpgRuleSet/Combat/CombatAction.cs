@@ -8,10 +8,10 @@ namespace DraftRpg.Combat
 {
     public enum CombatAction
     {
-        None,
-        Hit,
-        Parry,
-        Dodge,
-        Flee
+        None = 0,
+        Hit = 1,
+        Parry = 2,
+        Dodge = 4,
+        Flee = 8
     }
 }

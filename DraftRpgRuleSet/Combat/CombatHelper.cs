@@ -72,32 +72,6 @@ namespace DraftRpg.Combat
         }
 
         /// <summary>
-        /// See Draft 0.4 RPG Rule Set 4.19
-        /// </summary>
-        /// <param name="strength"></param>
-        /// <returns></returns>
-        public static int StrengthBonus(int strength)
-        {
-            /*  Formula:
-             *  
-             *  (1-2 = -1, 7-8 = +1, 9-10 = +2)
-             */
-
-            int retval = 0;
-
-            if (strength > 6)
-                retval++;
-
-            if (strength > 8)
-                retval++;
-
-            if (strength < 3)
-                retval--;
-
-            return retval;
-        }
-
-        /// <summary>
         /// See Draft 0.4 RPG Rule Set 4.19.1 
         /// </summary>
         /// <param name="size"></param>
@@ -112,7 +86,7 @@ namespace DraftRpg.Combat
 
             int impact = (int)size;
             
-            return impact  * 2 + weaponBonus;
+            return impact * 2 + weaponBonus;
         }
 
         /// <summary>
