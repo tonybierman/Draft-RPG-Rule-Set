@@ -5,7 +5,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DraftRpgRuleSet.Combat
+namespace DraftRpg.Combat
 {
     public static class CombatHelper
     {

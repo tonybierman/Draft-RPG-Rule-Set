@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DraftRpgRuleSet.Attributes
+namespace DraftRpg.Attributes
 {
     public interface IMainAttributes
     {

@@ -1,19 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DraftRpgRuleSet.Combat
+namespace DraftRpg.Combat
 {
     public enum ArmorType
     {
-        None,
-        HeavyCloth,
-        Leather,
-        Chain,
-        Plate,
-        FullPlate,
-        CombatSuit
+        [Description("Unamored")] None,
+        [Description("Heavy cloth")] HeavyCloth,
+        [Description("Leather")] Leather,
+        [Description("Chain mail")] Chain,
+        [Description("Plate mail")] Plate,
+        [Description("Full plate mail")] FullPlate,
+        [Description("Combat suit")] CombatSuit
     }
 }
