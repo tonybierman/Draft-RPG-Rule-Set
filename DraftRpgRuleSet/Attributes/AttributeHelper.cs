@@ -8,6 +8,15 @@ namespace DraftRpg.Attributes
 {
     public static class AttributeHelper
     {
+        public static string PrettyPrint(int bonus)
+        { 
+            if(bonus == 0) return string.Empty;
+
+            if(bonus < 0) return $"({bonus})";
+
+            return $"(+{bonus})";
+        }
+
         /// <summary>
         /// See Draft 0.4 RPG Rule Set 4.19
         /// </summary>
