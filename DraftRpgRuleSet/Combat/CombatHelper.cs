@@ -103,8 +103,8 @@ namespace DraftRpg.Combat
             /*  Forumla
              *  
                 damage = attack roll - defense roll
+                    + damage (impact x 2)
                     + strength bonus (7-8 = +1, 9-10 = +2)
-                    + damage bonus (impact x 2) + bonus
                     - armor protection
             */
 
